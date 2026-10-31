@@ -8,4 +8,3 @@ for num in arr:
 for num in freq:
     if freq[num] ==1:
         print(num)
-   
