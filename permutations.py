@@ -16,9 +16,7 @@ def permutations(arr, ds, visited):
             ds.pop()
             visited[i] = False
 
-
 arr = [1, 2, 3]
 ds = []
 visited = [False] * len(arr)
-
 permutations(arr, ds, visited)
