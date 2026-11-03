@@ -6,4 +6,3 @@ def remove_duplicate(arr):
     return uni
 arr = list(map(int, input().split()))
 print(remove_duplicate(arr))
-
