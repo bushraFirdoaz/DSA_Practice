@@ -7,9 +7,9 @@ def unique(arr):
             if arr[i] == arr[j]:
                 cnt+=1
         if cnt ==1:
-            return arr[i]
+            print(arr[i])
 
 
 arr = list(map(int, input().split()))
-print(unique(arr))
+unique(arr)
     
