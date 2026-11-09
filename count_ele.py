@@ -6,5 +6,5 @@ for num in arr:
     else:
         freq[num] =1
 for num in freq:
-    if freq[num] ==1:
+    if freq[num] % 2 !=0:
         print(num)
