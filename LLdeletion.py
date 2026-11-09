@@ -16,7 +16,6 @@ def takeinput():
         else:
             tail.next = newNode
             tail = newNode
-            
     return head
 def length(head):
     cnt =0
@@ -35,13 +34,13 @@ def delete(head,i):
     if i==0:
         return head.next
     curr = head
-    prev = None
+    #prev = None
     cnt =0
-    while curr is not None and cnt <i:
-        prev = curr
+    while curr is not None and cnt <i-1:
+        #prev = curr
         curr = curr.next
         cnt +=1
-    prev.next = curr.next
+    curr.next = curr.next.next
     return head
 head = takeinput()
 i = int(input())
